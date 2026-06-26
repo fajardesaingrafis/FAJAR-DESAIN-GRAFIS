@@ -1,21 +1,33 @@
 {
   "name": "Fajar Desain Grafis",
   "short_name": "FDG",
-  "start_url": "https://www.fajardesaingrafis.my.id/",
+  "description": "Jasa desain grafis, website, dan aplikasi profesional. Melayani seluruh Indonesia sejak 2012.",
+  "start_url": "https://www.fajardesaingrafis.my.id/?utm_source=pwa",
+  "scope": "https://www.fajardesaingrafis.my.id/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
+  "lang": "id-ID",
+  "dir": "ltr",
   "icons": [
     {
-      "src": "https://cdn.jsdelivr.net/gh/fajardesaingrafis/FAJAR-DESAIN-GRAFIS@main/Logo%20FDG%20100KB.jpg",
+      "src": "https://wsrv.nl/?url=cdn.jsdelivr.net/gh/fajardesaingrafis/FAJAR-DESAIN-GRAFIS@main/Logo%20FDG%20100KB.jpg&w=192&h=192&fit=cover&output=png",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "https://cdn.jsdelivr.net/gh/fajardesaingrafis/FAJAR-DESAIN-GRAFIS@main/Logo%20FDG%20100KB.jpg",
+      "src": "https://wsrv.nl/?url=cdn.jsdelivr.net/gh/fajardesaingrafis/FAJAR-DESAIN-GRAFIS@main/Logo%20FDG%20100KB.jpg&w=512&h=512&fit=cover&output=png",
       "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "any maskable"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://wsrv.nl/?url=cdn.jsdelivr.net/gh/fajardesaingrafis/FAJAR-DESAIN-GRAFIS@main/Logo%20FDG%20100KB.jpg&w=512&h=512&fit=contain&bg=ffffff&output=png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
